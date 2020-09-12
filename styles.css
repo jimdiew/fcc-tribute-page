@@ -1,3 +1,7 @@
+.border {
+  border: 5px solid red;
+}
+
 #background {
   background: rgb(255, 255, 255);
   background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(189, 243, 252, 1) 100%);
@@ -7,7 +11,7 @@
   margin: 85px 209px;
 }
 
-.title-2 {
+.titles {
   float: right;
 }
 
@@ -25,9 +29,7 @@
 }
 
 #img-div {
-  display: block;
   clear: both;
-  border: 5px solid red;
   width: 526px;
 }
 
@@ -39,4 +41,18 @@
 #img-caption {
   font-size: 14px;
   text-align: center;
+  font-family: sans-serif;
+}
+
+.info-box {
+  background-color: #ff78a1;
+  border-radius: 30px;
+  float: right;
+  width: 306px;
+}
+
+#tribute-info {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 5px 5px 5px 5px;
 }
