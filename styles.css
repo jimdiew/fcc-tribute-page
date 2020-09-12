@@ -1,21 +1,42 @@
-/*#main {
+#background {
   background: rgb(255, 255, 255);
   background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(189, 243, 252, 1) 100%);
-}*/
+}
+
+#main {
+  margin: 85px 209px;
+}
+
+.title-2 {
+  float: right;
+}
 
 #title {
   font-family: "Nunito", sans-serif;
-  float: right;
-  display: block;
+  text-transform: uppercase;
+  text-align: right;
+  margin: 0;
 }
 
 #japanese-title {
   font-family: "Kosugi Maru", sans-serif;
-  float: right;
+  text-align: right;
+  margin-top: 5px;
+}
+
+#img-div {
   display: block;
+  clear: both;
+  border: 5px solid red;
+  width: 526px;
 }
 
 #image {
-  width: 526px;
   border-radius: 10px;
+  width: 100%;
+}
+
+#img-caption {
+  font-size: 14px;
+  text-align: center;
 }
