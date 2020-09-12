@@ -1,4 +1,21 @@
-#main {
+/*#main {
   background: rgb(255, 255, 255);
   background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(189, 243, 252, 1) 100%);
+}*/
+
+#title {
+  font-family: "Nunito", sans-serif;
+  float: right;
+  display: block;
+}
+
+#japanese-title {
+  font-family: "Kosugi Maru", sans-serif;
+  float: right;
+  display: block;
+}
+
+#image {
+  width: 526px;
+  border-radius: 10px;
 }
