@@ -14,7 +14,7 @@
 }
 
 #main {
-  margin: 85px 209px;
+  margin: 50px 200px;
 }
 
 .titles {
@@ -37,21 +37,22 @@
 
 #img-div {
   width: 526px;
-  height: 383px;
   display: inline-block;
   margin-top: 50px;
 }
 
 #image {
   border-radius: 10px;
-  width: 100%;
+  width: 526px;
+  max-width: 100%;
+  height: auto;
 }
 
 #img-caption {
   font-size: 14px;
   text-align: center;
-  font-family: sans-serif;
-  margin-top: 5px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 15px;
 }
 
 .info-box {
@@ -65,7 +66,7 @@
 }
 
 #tribute-info {
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   margin: 20px;
   line-height: 150%;
@@ -103,5 +104,5 @@ a {
 #img-4,
 #img-5,
 #img-6 {
-  width: 149px;
+  height: 234px;
 }
