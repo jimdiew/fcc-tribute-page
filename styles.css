@@ -19,6 +19,7 @@
 
 .titles {
   display: block;
+  color: #b180df;
 }
 
 #title {
@@ -43,8 +44,7 @@
 
 #image {
   border-radius: 10px;
-  width: 526px;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -53,6 +53,7 @@
   text-align: center;
   font-family: "Raleway", sans-serif;
   margin-top: 15px;
+  color: #4d4d4d;
 }
 
 .info-box {
@@ -75,7 +76,7 @@
 }
 
 a {
-  color: #feba59;
+  color: #ffcc85;
   text-decoration: none;
 }
 
@@ -84,6 +85,7 @@ a {
   font-family: "Nunito", sans-serif;
   font-size: 24px;
   margin-top: 120px;
+  color: #b180df;
 }
 
 .photo-grid-container {
