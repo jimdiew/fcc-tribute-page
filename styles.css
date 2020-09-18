@@ -5,7 +5,7 @@
 }
 
 :root {
-  --title-color: #b180df;
+  --secondary-color: #b180df;
   --title-font: "Nunito", sans-serif;
   --p-font: "Raleway", sans-serif;
   --primary-color: #ff78a1;
@@ -29,7 +29,7 @@
 
 .titles {
   display: block;
-  color: var(--title-color);
+  color: var(--secondary-color);
 }
 
 #title {
@@ -75,13 +75,12 @@
   height: 326px;
   float: right;
   display: inline;
-
   margin-top: 120px;
+  background-color: var(--primary-color);
 }
 
 .box-style {
   border-radius: 30px;
-  background-color: var(--primary-color);
 }
 
 #tribute-info {
@@ -92,8 +91,11 @@
   padding: 15px;
 }
 
-a {
+#tribute-link {
   color: var(--links-color);
+}
+
+a {
   text-decoration: none;
 }
 
@@ -102,7 +104,7 @@ a {
   font-family: var(--title-font);
   font-size: 24px;
   margin-top: 120px;
-  color: var(--title-color);
+  color: var(--secondary-color);
 }
 
 .photo-grid-container {
@@ -130,13 +132,18 @@ a {
   margin-top: 80px;
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
 }
 
 .p-footer {
   color: var(--black-text);
+  text-align: center;
 }
 
-.box-margin {
-  padding: 15px;
+.box-footer {
+  padding: 20px 25px;
+  color: var(--secondary-color);
+}
+
+.footer-link {
+  color: var(--primary-color);
 }
