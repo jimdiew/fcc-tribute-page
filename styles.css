@@ -56,10 +56,14 @@
   height: auto;
 }
 
+.p-style {
+  font-family: var(--p-font);
+}
+
 #img-caption {
   font-size: 14px;
   text-align: center;
-  font-family: var(--p-font);
+
   margin-top: 15px;
   color: #4d4d4d;
 }
@@ -75,7 +79,6 @@
 }
 
 #tribute-info {
-  font-family: var(--p-font);
   font-size: 18px;
   margin: 20px;
   line-height: 150%;
